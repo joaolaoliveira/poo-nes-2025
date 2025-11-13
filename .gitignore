@@ -1,0 +1,70 @@
+# Arquivos de cache e compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ambientes virtuais
+.env
+.venv/
+venv/
+env/
+ENV/
+
+# Configurações de IDEs e editores
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs e arquivos temporários
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+*.tmp
+*.bak
+
+# Arquivos de build/distribuição
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Testes e coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Documentação gerada
+docs/_build/
+site/
+
+# Configurações de sistema
+.DS_Store
+Thumbs.db
+
+# Arquivos específicos de pacotes ou ferramentas
+*.env.local
+*.env.*.local
+instance/
+.scrapy/
+celerybeat-schedule
+celerybeat.pid
+
+# Arquivos de dependências locais
+pip-wheel-metadata/
