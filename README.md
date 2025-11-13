@@ -55,7 +55,7 @@ Cada aluno deve criar um branch com seu próprio nome (sem espaços ou acentos e
 Exemplo:
 
    ```
-   git checkout -b aluno_joaoluiz
+   git checkout -b aluno_joao_luiz
    ```
 
 Esse comando cria e já alterna para o seu branch.
@@ -67,7 +67,7 @@ Após editar ou criar arquivos:
    ```
    git add .
    git commit -m "Adiciona exercícios da aula 03"
-   git push origin aluno_joaoluiz
+   git push origin aluno_joao_luiz
    ```
 ## Enviando suas Mudanças para o Professor (Pull Request)
 
@@ -77,7 +77,7 @@ Se quiseres contribuir com a main do repositório, você pode realizar um **Pull
 2. Clique em **Compare & pull request**.
 3. Verifique se:
    - O **base branch** é `main`.
-   - O **compare branch** é o **seu branch** (`aluno_joaoluiz`, por exemplo).
+   - O **compare branch** é o **seu branch** (`aluno_joao_luiz`, por exemplo).
 4. Clique em **Create pull request**.
 5. Aguarde a revisão e aprovação do professor.
 
