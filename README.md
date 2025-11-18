@@ -35,15 +35,50 @@ Para obter uma cópia local deste repositório, siga os passos abaixo:
 
     ```
    git clone https://github.com/joaolaoliveira/poo-nes-2025.git
+    ```
 
 4. Entre na pasta clonada:
 
     ```
     cd poo-nes-2025
+    ```
 
 5. (Opcional) Abra no VS Code:
 
     ```
     code .
+    ```
 
-Agora você terá todos os arquivos do curso disponíveis localmente.
+## Criando seu Branch
+
+Cada aluno deve criar um branch com seu próprio nome (sem espaços ou acentos em snake_case).
+Exemplo:
+
+   ```
+   git checkout -b aluno_joao_luiz
+   ```
+
+Esse comando cria e já alterna para o seu branch.
+
+## Salvando Suas Alterações
+
+Após editar ou criar arquivos:
+
+   ```
+   git add .
+   git commit -m "Adiciona exercícios da aula 03"
+   git push origin aluno_joao_luiz
+   ```
+## Enviando suas Mudanças para o Professor (Pull Request)
+
+Se quiseres contribuir com a main do repositório, você pode realizar um **Pull Request** para ser analisado e, possivelmente, aceito pelo professor
+
+1. Acesse o repositório no GitHub.
+2. Clique em **Compare & pull request**.
+3. Verifique se:
+   - O **base branch** é `main`.
+   - O **compare branch** é o **seu branch** (`aluno_joao_luiz`, por exemplo).
+4. Clique em **Create pull request**.
+5. Aguarde a revisão e aprovação do professor.
+
+⚠️ Os alunos não têm permissão para dar push direto na main. Todas as alterações devem passar por Pull Request.
