@@ -20,4 +20,3 @@ COLUNAS_DICT = {
     'h': 8
 }
 
-COLUNAS =['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
